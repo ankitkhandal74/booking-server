@@ -9,4 +9,8 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.7.3"
   }
+  "scripts": {
+    "build": "npm run build", // or the appropriate command to start your server
+    "start": "node server.js"  // if you don't already have a start script
+}
 }
